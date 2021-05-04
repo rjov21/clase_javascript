@@ -65,4 +65,32 @@ conversion  =Boolean('Hola');
 console.log(`El valor ${conversion} es de tipo ${typeof(conversion)}`);
 
 //comparaciones
+//al comparar valores de diferentes tipos, js primero convierte los valores a numeros.
+// toda comparacion con NaN es false
 console.log(2 > true);
+
+
+// sentencia if
+/*if(condicion){
+
+}else if(condicion){
+
+}else{
+
+}
+*/
+
+//operador ternario
+let edad;
+let resultado = edad > 18 ? 20 : 30;
+
+//bucle while y for
+let i = 1;
+while(i<=10){
+    i++;
+}
+
+//ciclo for
+/*for(comienzo,condicion,inremento)
+*/
+
